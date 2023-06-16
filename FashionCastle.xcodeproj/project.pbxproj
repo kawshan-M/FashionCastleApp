@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFDB80782A38B227008237D2 /* FashionCastleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB80772A38B227008237D2 /* FashionCastleApp.swift */; };
+		EFDB807A2A38B227008237D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB80792A38B227008237D2 /* ContentView.swift */; };
+		EFDB807C2A38B228008237D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDB807B2A38B228008237D2 /* Assets.xcassets */; };
+		EFDB807F2A38B228008237D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDB807E2A38B228008237D2 /* Preview Assets.xcassets */; };
+		EFDB80872A38BF4B008237D2 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB80862A38BF4B008237D2 /* Product.swift */; };
+		EFDB808A2A38C6A0008237D2 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB80892A38C6A0008237D2 /* ProductCard.swift */; };
+		EFDB808D2A3ADFC6008237D2 /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB808C2A3ADFC6008237D2 /* CartButton.swift */; };
+		EFDB808F2A3AE3E0008237D2 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB808E2A3AE3E0008237D2 /* CartView.swift */; };
+		EFDB80912A3B03CF008237D2 /*  CartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB80902A3B03CF008237D2 /*  CartManager.swift */; };
+		EFDB80932A3B23C0008237D2 /* ProductRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB80922A3B23C0008237D2 /* ProductRow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EFDB80742A38B227008237D2 /* FashionCastle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FashionCastle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDB80772A38B227008237D2 /* FashionCastleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionCastleApp.swift; sourceTree = "<group>"; };
+		EFDB80792A38B227008237D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFDB807B2A38B228008237D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFDB807E2A38B228008237D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFDB80862A38BF4B008237D2 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		EFDB80892A38C6A0008237D2 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
+		EFDB808C2A3ADFC6008237D2 /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
+		EFDB808E2A3AE3E0008237D2 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		EFDB80902A3B03CF008237D2 /*  CartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " CartManager.swift"; sourceTree = "<group>"; };
+		EFDB80922A3B23C0008237D2 /* ProductRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFDB80712A38B227008237D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFDB806B2A38B227008237D2 = {
+			isa = PBXGroup;
+			children = (
+				EFDB80762A38B227008237D2 /* FashionCastle */,
+				EFDB80752A38B227008237D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFDB80752A38B227008237D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB80742A38B227008237D2 /* FashionCastle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFDB80762A38B227008237D2 /* FashionCastle */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB80772A38B227008237D2 /* FashionCastleApp.swift */,
+				EFDB808B2A38F77A008237D2 /* view */,
+				EFDB80882A38C64F008237D2 /* Componant */,
+				EFDB80852A38BF0D008237D2 /* Models */,
+				EFDB807B2A38B228008237D2 /* Assets.xcassets */,
+				EFDB807D2A38B228008237D2 /* Preview Content */,
+				EFDB80902A3B03CF008237D2 /*  CartManager.swift */,
+			);
+			path = FashionCastle;
+			sourceTree = "<group>";
+		};
+		EFDB807D2A38B228008237D2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB807E2A38B228008237D2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFDB80852A38BF0D008237D2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB80862A38BF4B008237D2 /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EFDB80882A38C64F008237D2 /* Componant */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB80892A38C6A0008237D2 /* ProductCard.swift */,
+				EFDB808C2A3ADFC6008237D2 /* CartButton.swift */,
+				EFDB80922A3B23C0008237D2 /* ProductRow.swift */,
+			);
+			path = Componant;
+			sourceTree = "<group>";
+		};
+		EFDB808B2A38F77A008237D2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				EFDB80792A38B227008237D2 /* ContentView.swift */,
+				EFDB808E2A3AE3E0008237D2 /* CartView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFDB80732A38B227008237D2 /* FashionCastle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDB80822A38B228008237D2 /* Build configuration list for PBXNativeTarget "FashionCastle" */;
+			buildPhases = (
+				EFDB80702A38B227008237D2 /* Sources */,
+				EFDB80712A38B227008237D2 /* Frameworks */,
+				EFDB80722A38B227008237D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FashionCastle;
+			productName = FashionCastle;
+			productReference = EFDB80742A38B227008237D2 /* FashionCastle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFDB806C2A38B227008237D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EFDB80732A38B227008237D2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = EFDB806F2A38B227008237D2 /* Build configuration list for PBXProject "FashionCastle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFDB806B2A38B227008237D2;
+			productRefGroup = EFDB80752A38B227008237D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDB80732A38B227008237D2 /* FashionCastle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFDB80722A38B227008237D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDB807F2A38B228008237D2 /* Preview Assets.xcassets in Resources */,
+				EFDB807C2A38B228008237D2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFDB80702A38B227008237D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDB808F2A3AE3E0008237D2 /* CartView.swift in Sources */,
+				EFDB807A2A38B227008237D2 /* ContentView.swift in Sources */,
+				EFDB80912A3B03CF008237D2 /*  CartManager.swift in Sources */,
+				EFDB80782A38B227008237D2 /* FashionCastleApp.swift in Sources */,
+				EFDB80932A3B23C0008237D2 /* ProductRow.swift in Sources */,
+				EFDB80872A38BF4B008237D2 /* Product.swift in Sources */,
+				EFDB808A2A38C6A0008237D2 /* ProductCard.swift in Sources */,
+				EFDB808D2A3ADFC6008237D2 /* CartButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EFDB80802A38B228008237D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFDB80812A38B228008237D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFDB80832A38B228008237D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FashionCastle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.777.FashionCastle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFDB80842A38B228008237D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FashionCastle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.777.FashionCastle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFDB806F2A38B227008237D2 /* Build configuration list for PBXProject "FashionCastle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDB80802A38B228008237D2 /* Debug */,
+				EFDB80812A38B228008237D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDB80822A38B228008237D2 /* Build configuration list for PBXNativeTarget "FashionCastle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDB80832A38B228008237D2 /* Debug */,
+				EFDB80842A38B228008237D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFDB806C2A38B227008237D2 /* Project object */;
+}
