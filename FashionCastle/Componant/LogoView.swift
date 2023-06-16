@@ -11,8 +11,8 @@ struct LogoView: View {
     var body: some View {
         Image("logo") // Replace "logo" with the name of your logo image asset
             .resizable()
-            .frame(width: 60, height: 60) // Adjust the size of the logo needed
-            .padding(.leading, 16) // Adjust the horizontal padding as needed
+            .frame(width: 120, height: 120) // Adjust the size of the logo needed
+            .padding(.leading, -35) // Adjust the horizontal padding as needed
     }
 }
 
