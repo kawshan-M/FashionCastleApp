@@ -23,6 +23,7 @@ struct ContentView: View {
                 .padding()
             }
             .navigationTitle(Text("Fashion Castle"))
+            .navigationBarItems(leading: LogoView())
             .toolbar{
                 NavigationLink{
                     CartView()

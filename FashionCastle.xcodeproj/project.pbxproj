@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF717F332A3CB971007AEC77 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF717F322A3CB971007AEC77 /* LogoView.swift */; };
 		EFDB80782A38B227008237D2 /* FashionCastleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB80772A38B227008237D2 /* FashionCastleApp.swift */; };
 		EFDB807A2A38B227008237D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDB80792A38B227008237D2 /* ContentView.swift */; };
 		EFDB807C2A38B228008237D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDB807B2A38B228008237D2 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF717F322A3CB971007AEC77 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		EFDB80742A38B227008237D2 /* FashionCastle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FashionCastle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDB80772A38B227008237D2 /* FashionCastleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionCastleApp.swift; sourceTree = "<group>"; };
 		EFDB80792A38B227008237D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				EFDB80892A38C6A0008237D2 /* ProductCard.swift */,
 				EFDB808C2A3ADFC6008237D2 /* CartButton.swift */,
 				EFDB80922A3B23C0008237D2 /* ProductRow.swift */,
+				EF717F322A3CB971007AEC77 /* LogoView.swift */,
 			);
 			path = Componant;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFDB808F2A3AE3E0008237D2 /* CartView.swift in Sources */,
+				EF717F332A3CB971007AEC77 /* LogoView.swift in Sources */,
 				EFDB807A2A38B227008237D2 /* ContentView.swift in Sources */,
 				EFDB80912A3B03CF008237D2 /*  CartManager.swift in Sources */,
 				EFDB80782A38B227008237D2 /* FashionCastleApp.swift in Sources */,
