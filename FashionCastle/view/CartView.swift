@@ -24,6 +24,9 @@ struct CartView: View {
                         .bold()
                 }
                 .padding()
+                
+                PayementButton(action: {})
+                    .padding()
             }else{
                 Text("Your Cart is Empty")
             }
