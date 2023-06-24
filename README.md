@@ -1,2 +1,2 @@
 # FashionCastleApp
-iOS Application for E-Commerce Shop 
+A simple iOS Application for E-Commerce Shop 
