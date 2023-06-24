@@ -34,6 +34,7 @@ struct ContentView: View {
             }
         }
         .navigationViewStyle(StackNavigationViewStyle() )
+        .background(Color(red: 1.0, green: 0.619, blue: 0.667))
     }
 }
 
